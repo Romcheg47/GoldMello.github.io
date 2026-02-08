@@ -1,0 +1,72 @@
+<svg width="600" height="280" viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="youtubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CC0000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="instagramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#833AB4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FD1D1D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FCAF45;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tiktokGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF0050;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00F2EA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="telegramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0088CC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066AA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="twitchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9146FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#772CE8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="280" fill="#1A1A1A"/>
+  
+  <!-- YouTube -->
+  <g transform="translate(30, 40)">
+    <rect x="0" y="0" width="140" height="50" rx="12" fill="url(#youtubeGrad)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">YouTube</text>
+  </g>
+  
+  <!-- TikTok -->
+  <g transform="translate(200, 40)">
+    <rect x="0" y="0" width="140" height="50" rx="12" fill="url(#tiktokGrad)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">TikTok</text>
+  </g>
+  
+  <!-- Twitter/X -->
+  <g transform="translate(370, 40)">
+    <rect x="0" y="0" width="140" height="50" rx="12" fill="#000000"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="white" text-anchor="middle">X</text>
+    <text x="70" y="50" font-family="Arial, sans-serif" font-size="12" fill="#888" text-anchor="middle">Twitter</text>
+  </g>
+  
+  <!-- Instagram -->
+  <g transform="translate(30, 120)">
+    <rect x="0" y="0" width="140" height="50" rx="12" fill="url(#instagramGrad)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Instagram</text>
+  </g>
+  
+  <!-- Facebook -->
+  <g transform="translate(200, 120)">
+    <rect x="0" y="0" width="140" height="50" rx="12" fill="#1877F2"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Facebook</text>
+  </g>
+  
+  <!-- Telegram -->
+  <g transform="translate(370, 120)">
+    <rect x="0" y="0" width="140" height="50" rx="12" fill="url(#telegramGrad)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Telegram</text>
+  </g>
+  
+  <!-- Twitch -->
+  <g transform="translate(115, 200)">
+    <rect x="0" y="0" width="140" height="50" rx="12" fill="url(#twitchGrad)"/>
+    <text x="70" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Twitch</text>
+  </g>
+</svg>
